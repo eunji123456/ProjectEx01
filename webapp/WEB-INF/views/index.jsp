@@ -16,6 +16,7 @@
     <link href="${pageContext.request.contextPath }/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
+    <link href="${pageContext.request.contextPath }/assets/css/diy.css" rel="stylesheet" type="text/css" >
     <link href="${pageContext.request.contextPath }/assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
@@ -28,47 +29,113 @@
   </head>
 
   <body id="page-top">
+  
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">Start
+				Bootstrap</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button"
+				data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu <i class="fa fa-bars"></i>
+			</button>
+
+
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+
+
+				<form action="" method="POST" class=center>
+					<input type="text" size="50">
+
+					<button type="submit" class="btn btn-success">검색</button>
+				</form>
+				<ul class="navbar-nav ml-auto">
+					
+					<li class="nav-item"><a class="nav-link js-scroll-trigger"
+						href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
     <!-- Header -->
-    <header class="masthead">
-      <div class="container">
-        <div class="intro-text">
-          <div class="intro-lead-in">Welcome To Our Studio!</div>
-          <div class="intro-heading">It's Nice To Meet You</div>
-          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
-        </div>
-      </div>
-    </header>
+   <header class = "masthead">
+		    <div class="container">
+			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="1"></li>
+				      <li data-target="#myCarousel" data-slide-to="2"></li>
+				      <li data-target="#myCarousel" data-slide-to="3"></li>
+				    </ol>
+				
+				    <!-- Wrapper for slides -->
+				   <div class="carousel-inner" role="listbox">
+				
+				      <div class="carousel-item active">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="First slide" width="460" height="345">
+				        <div class="carousel-caption">
+				        <div class = "intro-text">
+				          <div class = "intro-heading">Chania</div>
+				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+				        	</div>
+				        </div>
+				      </div>
+				
+				      <div class="carousel-item">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Second slide" width="460" height="345">
+				        <div class="carousel-caption">
+				        <div class = "intro-text">
+				          <div class = "intro-heading">Chania</div>
+				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+				        	</div>
+				        </div>
+				      </div>
+				    
+				      <div class="carousel-item">
+				       <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Third slide" width="460" height="345">
+				        <div class="carousel-caption">
+				        <div class = "intro-text">
+				          <div class = "intro-heading">Chania</div>
+				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+				        	</div>
+				        </div>
+				      </div>
+				
+				      <div class="carousel-item">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Fourth slide" width="460" height="345">
+				        <div class="carousel-caption">
+				        <div class = "intro-text">
+				          <div class = "intro-heading">Chania</div>
+				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+				        	</div>
+				        </div>
+				    </div>
+			  
+			    </div>
+			
+			    <!-- Left and right controls -->
+			  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			  </a>
+			  </div>
+			</div>
+    	</header>
 
     <!-- Services -->
     <section id="services">
