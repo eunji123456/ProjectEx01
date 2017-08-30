@@ -76,54 +76,58 @@
 				    </ol>
 				
 				    <!-- Wrapper for slides -->
-				   <div class="carousel-inner" role="listbox">
+				 <div class="carousel-inner" role="listbox">
 				
-				      <div class="carousel-item active">
-				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="First slide" width="460" height="345">
-				        <div class="carousel-caption">
-				        <div class = "intro-text">
-				          <div class = "intro-heading">Chania</div>
-				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
-				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
-				        	</div>
-				        </div>
-				      </div>
+				    <div class="carousel-item active">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/MacDeMarco.jpg" alt="First slide">
+					        <div class="carousel-caption">
+					        <div class = "intro-text">
+					          <div class = "intro-heading">Chania</div>
+					          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+					          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+					        </div>
+					        </div>
+					   </div>	
+					 
+				   
+				     <div class="carousel-item">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/MacDeMarco.jpg" alt="Second slide">
+					        <div class="carousel-caption">
+					        <div class = "intro-text">
+					          <div class = "intro-heading">Chania</div>
+					          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+					          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+					        	</div>
+					         </div>
+					   </div>
+
+				     
+				     <div class="carousel-item">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/MacDeMarco.jpg" alt="Thrid slide">
+					        <div class="carousel-caption">
+					        <div class = "intro-text">
+					          <div class = "intro-heading">Chania</div>
+					          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+					          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+					        	</div>
+					         </div>
+					     </div>
+				     
 				
-				      <div class="carousel-item">
-				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Second slide" width="460" height="345">
-				        <div class="carousel-caption">
-				        <div class = "intro-text">
-				          <div class = "intro-heading">Chania</div>
-				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
-				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
-				        	</div>
-				        </div>
-				      </div>
-				    
-				      <div class="carousel-item">
-				       <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Third slide" width="460" height="345">
-				        <div class="carousel-caption">
-				        <div class = "intro-text">
-				          <div class = "intro-heading">Chania</div>
-				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
-				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
-				        	</div>
-				        </div>
-				      </div>
+				     <div class="carousel-item">
+				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/MacDeMarco.jpg" alt="Fourth slide">
+				       </div>
+					        <div class="carousel-caption">
+					        <div class = "intro-text">
+					          <div class = "intro-heading">Chania</div>
+					          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
+					          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+					        	</div>
+					         </div>
+					 </div>
+				</div>
+		  </div>
 				
-				      <div class="carousel-item">
-				        <img class="d-block" src="${pageContext.request.contextPath }/assets/img/example/food.jpg" alt="Fourth slide" width="460" height="345">
-				        <div class="carousel-caption">
-				        <div class = "intro-text">
-				          <div class = "intro-heading">Chania</div>
-				          <div class = "intro-lead-in">The atmosphere in Chania has a touch of Florence and Venice.</div>
-				          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
-				        	</div>
-				        </div>
-				    </div>
-			  
-			    </div>
-			
 			    <!-- Left and right controls -->
 			  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -133,8 +137,6 @@
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="sr-only">Next</span>
 			  </a>
-			  </div>
-			</div>
     	</header>
 
     <!-- Services -->
